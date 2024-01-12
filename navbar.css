@@ -369,7 +369,7 @@
     width: 30px;
     height: 2px;
     border-right: 5px;
-    background-color: #000000;
+    background-color: #ffffff; /* HAMBURGER VISIBILITY*/
 }
 .cid-u0GcCzeRZy  button.navbar-toggler .hamburger span:nth-child(1) {
     top: 0;
@@ -412,6 +412,13 @@
 .cid-u0GcCzeRZy  .navbar-dropdown {
     padding: 0 4rem;
 }
+@media (max-width: 992px){
+    .cid-u0GcCzeRZy  .navbar-dropdown {
+        padding: 0 0;
+    }
+}
+
+
 .cid-u0GcCzeRZy  a.nav-link {
     display: flex;
     align-items: center;
@@ -430,7 +437,9 @@
     .cid-u0GcCzeRZy  .icons-menu {
         justify-content: flex-start;
         margin-bottom: 0.5rem;
+
     }
+
 }
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
     .cid-u0GcCzeRZy  .navbar {
@@ -498,7 +507,7 @@
         background: #ffffff;
         opacity: 1;
         /*border-color: rgba(208, 22, 22, 0.8) !important;*/
-        background: rgba(255, 255, 255, 0.8) !important; /* POP UP COLOR*/
+        background: rgba(110, 110, 110, 0.8) !important; /* POP UP COLOR*/
         backdrop-filter: blur(8px);
     }
 
@@ -559,7 +568,22 @@
 }
 
 .my-container{
-    color: black !important;
+    color: #ffffff !important;
     /*padding: 0 !important;*/
     margin: 0 !important;
+}
+
+.text-black {
+    color: #ffffff;
+    font-size: 2.5em;
+}
+
+.navbar-caption{
+    font-size: 2em;
+}
+@media (max-width: 991px){
+
+    .navbar-caption{
+        font-size: 1.5em;
+    }
 }

@@ -1,0 +1,98 @@
+
+<style>
+    .cid-u0GcCzgUZl {
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+        background-color: transparent;
+    }
+    .cid-u0GcCzgUZl .mbr-text {
+        color: #000000;
+    }
+    .cid-u0GcCzgUZl .mbr-section-subtitle {
+        color: #000000;
+    }
+    .cid-u0GcCzgUZl .mbr-section-title {
+        color: #000000;
+        text-align: center;
+    }
+    .cid-u0GcCzgUZl .mbr-text,
+    .cid-u0GcCzgUZl .item .mbr-section-btn {
+        text-align: left;
+    }
+    .cid-u0GcCzgUZl .item-wrapper {
+        background: #ffffff;
+        margin-bottom: 2rem;
+        padding: 2.25rem;
+    }
+    @media (min-width: 992px) and (max-width: 1200px) {
+        .cid-u0GcCzgUZl .item-wrapper {
+            padding: 2rem 1.5rem;
+            margin-bottom: 2rem;
+        }
+    }
+    @media (max-width: 767px) {
+        .cid-u0GcCzgUZl .item-wrapper {
+            padding: 2rem 1.5rem;
+            margin-bottom: 1rem;
+        }
+    }
+
+</style> <!--FAQ-->
+<section class="list05 cid-u0GcCzgUZl" id="faq-3-u0GcCzgUZl">
+    <div class="container">
+        <div class="col-12 mb-5 content-head">
+            <h3 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2">
+                <strong>FAQ</strong>
+            </h3>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-12 col-lg-8">
+                <div class="item features-without-image col-12 active">
+                    <div class="item-wrapper">
+                        <h5 class="mbr-card-title mbr-fonts-style mt-0 mb-3 display-5">
+                            <strong>What makes Caffeteria unique?</strong></h5>
+                        <p class="mbr-text mbr-fonts-style mt-0 mb-3 display-7">
+                            Caffeteria is a place where every cup of coffee comes with a side of good vibes and great conversations.
+                        </p>
+                    </div>
+                </div>
+                <div class="item features-without-image col-12">
+                    <div class="item-wrapper">
+                        <h5 class="mbr-card-title mbr-fonts-style mt-0 mb-3 display-5">
+                            <strong>Do you have vegan options?</strong></h5>
+                        <p class="mbr-text mbr-fonts-style mt-0 mb-3 display-7">
+                            Yes, we offer a variety of delicious vegan treats and plant-based milk options.
+                        </p>
+                    </div>
+                </div>
+                <div class="item features-without-image col-12">
+                    <div class="item-wrapper">
+                        <h5 class="mbr-card-title mbr-fonts-style mt-0 mb-3 display-5">
+                            <strong>Can I work or study at Caffeteria?</strong></h5>
+                        <p class="mbr-text mbr-fonts-style mt-0 mb-3 display-7">
+                            Absolutely! Our cozy corners and free Wi-Fi make it the perfect spot to get things done.
+                        </p>
+                    </div>
+                </div>
+                <div class="item features-without-image col-12">
+                    <div class="item-wrapper">
+                        <h5 class="mbr-card-title mbr-fonts-style mt-0 mb-3 display-5">
+                            <strong>Do you host events or live music?</strong></h5>
+                        <p class="mbr-text mbr-fonts-style mt-0 mb-3 display-7">
+                            Yes, we love to host events and showcase local talent. Stay tuned for our upcoming events!
+                        </p>
+                    </div>
+                </div>
+                <div class="item features-without-image col-12">
+                    <div class="item-wrapper">
+                        <h5 class="mbr-card-title mbr-fonts-style mt-0 mb-3 display-5">
+                            <strong>Is Caffeteria pet-friendly?</strong></h5>
+                        <p class="mbr-text mbr-fonts-style mt-0 mb-3 display-7">
+                            Of course! We love furry friends, and they&#x27;re always welcome at Caffeteria.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

@@ -544,6 +544,7 @@
 }
 .socicon-facebook:before {
   content: "\e028";
+  color: #C68642;
 }
 .socicon-feedburner:before {
   content: "\e029";
@@ -628,6 +629,7 @@
 }
 .socicon-instagram:before {
   content: "\e044";
+  color: #C68642;
 }
 .socicon-issuu:before {
   content: "\e045";
@@ -844,6 +846,7 @@
 }
 .socicon-twitch:before {
   content: "\e08c";
+  color: #C68642;
 }
 .socicon-twitter:before {
   content: "\e08d";
