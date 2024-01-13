@@ -9,6 +9,7 @@ body {
   font-weight: 400;
   color: #232323;
   position: relative;
+  z-index: 1;
 }
 
 button {

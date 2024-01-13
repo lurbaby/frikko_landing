@@ -97,3 +97,28 @@
     background-color: #6E6E6ECC !important;
     border-color: #6E6E6ECC !important;
 }
+
+@media (min-width: 545px ) and (max-width: 1400px) {
+    .flex_text  {
+        font-size: 20px;
+        line-height: 1.5;
+
+    }
+}
+
+::-webkit-scrollbar{
+    background-color: #FFF;
+    width: 6px;
+    position: relative;
+
+    z-index: -1;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #000;
+}
+
+*{
+    scrollbar-color: #0000 #FFF;
+    scrollbar-width: thin;
+}
