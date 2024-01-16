@@ -9,55 +9,217 @@
     padding-left: 10px;
 }
 
-/* FLIPPED CARD */
-.container-card {
-    width: 300px;
-    height: 200px;
-    position: relative;
-    perspective: 800px;
-    border-radius: 4px;
+
+.cid-u0GcCzg2K{
+    /*padding-top: 5rem;*/
+    padding-bottom: 5rem;
+    background: url("assets/images/bg_fricco_white.png") fixed;
+    background-size: cover;
+    background-position: center;
 }
 
-.card {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    transform-style: preserve-3d;
-    transition: transform 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-    border-radius: 6px;
-    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
-    cursor: pointer;
+
+
+/*MY-CARD*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,500;0,900;1,500&display=swap');
+
+
+.cards-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: stretch;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 50px;
 }
 
-.card div {
-    position: absolute;
+.card-wrapp {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* From https://css.glass */
+    background: rgba(0, 0, 0, 0.47);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(18.6px);
+    -webkit-backdrop-filter: blur(18.6px);
+    border: 1px solid rgba(0, 0, 0, 0.24);
+
+
+
+    max-width: 400px;
+    margin: 10px;
+
+    perspective: 1000px;
+    transition: transform 0.5s ease; /* Додавання плавного переходу для властивості transform */
+    transform-style: preserve-3d; /* Забезпечення збереження 3D обертання */
+
+}
+
+.card-image{
+    /*max-width: 100%;*/
+
+}
+
+.card-image img{
     width: 100%;
     height: 100%;
-    backface-visibility: hidden;
-    border-radius: 6px;
-    background: #cb1111;
+    object-fit: cover;
+    scale: 1;
+}
+
+
+.card-caption{
+    padding-left: 30px;
+    padding-right: 20px;
+}
+
+.card-name p{
+    font-family: 'Roboto', sans-serif;
+    padding-top: 10px;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.card-description{
+    font-family: 'Roboto', sans-serif;
+    padding-top: 10px;
+    font-size: 20px;
+    line-height: 2;
+    font-weight: 400;
+
+}
+.card-price p{
+    font-family: 'Roboto', sans-serif;
+    padding-top: 10px;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.card-button {
+
     display: flex;
     justify-content: center;
     align-items: center;
-    font: 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-smoothing: antialiased;
-    color: #47525D;
+    /*padding-left: 30px;*/
+    /*border: 1px solid  black;*/
+    border-radius: 10px;
+    /*font-size: 10px;*/
 }
 
-.card .back {
-    transform: rotateY(180deg);
+.card-price-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*padding-bottom: 20px;*/
 }
 
-.card.flipped {
-    transform: rotateY(180deg);
-}
+@media (min-width: 768px) and (max-width: 968px) {
+    .cards-wrapper{
+        /*flex-direction: column;*/
+    }
+    .card-wrapp{
+        scale: 1;
 
-/* Media Query for Responsive Design */
-@media (max-width: 600px) {
-    .container-cards {
-        flex-direction: column;
-        width: 100%; /* Adjust as needed */
-        /*max-width: 300px; !* Set a maximum width if desired *!*/
-        /*visibility: hidden;*/
+        max-width: 400px;
+
+        /*flex-direction: column;*/
+        margin-bottom: 50px;
+    }
+    .card-image img{
+        width: 100%;
+        height: 100%;
+        /*object-fit: cover;*/
+        scale: 0.8;
     }
 }
+
+@media (max-width: 768px){
+
+    .card-image img{
+        width: 100%;
+        height: 100%;
+        /*object-fit: cover;*/
+        scale: 1;
+    }
+
+
+    .card-wrapp{
+
+        max-width: 600px;
+
+        /*flex-direction: column;*/
+        margin-bottom: 10px;
+    }
+
+}
+.menu-caption{
+    background: #000;
+    width: 100%;
+}
+
+
+.cid-u0GcCzhsQ {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    background-color: transparent;
+}
+.cid-u0GcCzhsQ .social-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+/*.cid-u0GcCzhsQ{*/
+/*    margin: 8px;*/
+/*}*/
+.cid-u0GcCzhsQ{
+    /*width: 72px;*/
+    /*height: 72px;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*border-radius: 100%;*/
+    font-size: 32px;
+    /*background-color: #f7f7f7;*/
+    color: var(--primary-color, #393193);
+    transition: all 0.3s ease-in-out;
+}
+.cid-u0GcCzhsQ {
+    /*width: 100%;*/
+    justify-content: center;
+}
+.cid-u0GcCzhsQ{
+    /*color: #ffffff;*/
+}
+.cid-u0GcCzhsQ {
+    color: #ffffff;
+}
+
+.second-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.ourmenu-caption{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #000;
+    max-width: 500px;
+}
+
+
+/*<div class="card-button">*/
+/*<a href="#">*/
+/*<button >Click me!*/
+/*</button>*/
+/*</a>*/
+/*</div>*/

@@ -570,7 +570,7 @@
 .my-container{
     color: #ffffff !important;
     /*padding: 0 !important;*/
-    margin: 0 !important;
+    margin: 0 auto !important;
 }
 
 .text-black {
@@ -582,8 +582,11 @@
     font-size: 2em;
 }
 @media (max-width: 991px){
-
+    .navbar-caption-wrap {
+        padding-left: 50px;
+    }
     .navbar-caption{
         font-size: 1.5em;
     }
 }
+
